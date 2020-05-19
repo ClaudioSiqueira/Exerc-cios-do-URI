@@ -1,0 +1,5 @@
+c = int(input())
+numeros = list(map(int, input().split(' ')))
+menor = min(numeros)
+indice = numeros.index(menor)
+print(indice + 1)
